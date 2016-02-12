@@ -1,0 +1,13 @@
+#ENDPOINS
+#inicialmente não vai usar o .htaccess
+Adicionar tarefa
+POST /tarefas
+
+Editar tarefa
+PUT /tarefas/{nome}/[descricao]
+
+Remover tarefa
+DELETE /tarefas/{id}
+
+Marcar como concluida
+PUT /tarefas/{id}
