@@ -11,3 +11,23 @@ DELETE /tarefas/{id}
 
 Marcar como concluida
 PUT /tarefas/{id}
+
+Listar tarefas
+GET /tarefas
+
+
+#ENDPOINS SEM HTACCESS
+Adicionar tarefa
+POST /tarefas.php
+
+Editar tarefa
+PUT /tarefas.php/?nome={nome}[&descricao={descricao}]
+
+Remover tarefa
+DELETE /tarefas.php?id={id}
+
+Marcar como concluida
+PUT /tarefas.php?id={id}
+
+Listar tarefas
+GET /tarefas.php
