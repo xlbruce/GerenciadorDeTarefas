@@ -1,8 +1,9 @@
+//Template de uma tarefa
 {
-  "id": 1,
-  "nome": "Nome da tarefa (obrigatório)",
-  "descricao": "Descrição da tarefa (opcional)",
-  "concluida": false,
-  "criacao": "2016-02-12",
-  "modificada": "2016-02-12"
+  "id":1,
+  "nome":"Nome da tarefa (obrigatório)",
+  "descricao":"Descrição da tarefa (opcional)",
+  "concluida":true,
+  "criacao":"2016-02-12",
+  "modificada":"2016-02-16"
 }
